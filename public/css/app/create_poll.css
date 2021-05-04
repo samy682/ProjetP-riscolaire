@@ -1,0 +1,25 @@
+.form-horizontal .radio label {
+    width: 100%;
+}
+
+.optional-parameters:hover, .optional-parameters:focus {
+    text-decoration: none;
+}
+
+.optional-parameters:active, .optional-parameters:focus {
+    outline: none;
+}
+
+.optional-parameters .caret, .optional-parameters.collapsed .caret.caret-up {
+    display: none;
+}
+
+.optional-parameters .caret.caret-up, .optional-parameters.collapsed .caret {
+    display: inline-block;
+}
+
+.caret.caret-up  {
+    border-bottom: 4px dashed;
+    border-top: 0 none;
+    content: "";
+}
